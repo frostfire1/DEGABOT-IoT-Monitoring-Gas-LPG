@@ -84,7 +84,7 @@ void finalLOG(String pesan) {
   MenulisDataFileSD(pesan.c_str());
 }
 void whatsapp(String pesan){
-  String url = "https://api.callmebot.com/whatsapp.php?phone=6285236486026&text=" + urlEncode(pesan) + "&apikey=7266615";      
+  String url = "https://api.callmebot.com/whatsapp.php?phone=6285755921415&text=" + urlEncode(pesan) + "&apikey=7266615";      
   HTTPClient http;
   http.begin(url);
   http.addHeader("Content-Type", "application/x-www-form-urlencoded");
